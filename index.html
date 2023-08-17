@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <audio id="background-music" autoplay loop>
+        <source src="./music.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+
+    <div id="flag">
+        <div id="saffron">
+
+        </div>
+        <div id="white">
+            <div id="wheel">
+                <span class="line"></span>
+                <span class="line"></span>
+                <span class="line"></span>
+                <span class="line"></span>
+                <span class="line"></span>
+                <span class="line"></span>
+                <span class="line"></span>
+                <span class="line"></span>
+                <span class="line"></span>
+                <span class="line"></span>
+                <span class="line"></span>
+                <span class="line"></span>
+            </div>
+        </div>
+        <div id="green">
+
+        </div>
+    </div>
+    <script>
+        const audio = document.getElementById("background-music");
+        audio.volume = 0.9;
+        audio.play();
+    </script>
+</body>
+
+</html>
